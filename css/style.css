@@ -720,7 +720,7 @@ footer p {
 
 @media (max-width: 1500px) {
 	.container2 {
-		padding-top: 100px;
+		padding-top: 70px;
 	}
 	.container4 h3 {
 		padding-top: 30px;
@@ -742,6 +742,25 @@ footer p {
 	header .bottom_header .menu {
 		display: none;
 	}
+
+	header .bottom_header .show {
+		display: block;
+	}
+
+	header .bottom_header .burger {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-color: #ffc000;
+	}
+	header .bottom_header .burger i{
+		width: 20px;
+		height: 4px;
+		margin: 5px;
+		background-color: #2d3e50;
+		display: block;
+	}
+
 	.container10 .item .card-body p {
 		line-height: normal;
 	}
@@ -756,6 +775,8 @@ footer p {
 	.container10 .text {
 		margin-top: 50px;
 	}
+
+	
 
 }
 @media (max-width: 992px) {
